@@ -1,16 +1,143 @@
-# React + Vite
+# 💰 Finance Dashboard (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Finance Dashboard** built using **React.js** that helps users manage transactions, visualize financial data, and gain insights through charts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 📊 **Dashboard Overview**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  * Displays total income, expenses, and balance
 
-## Expanding the ESLint configuration
+* 💸 **Transaction Management**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * Add new transactions
+  * Edit existing transactions
+  * Delete transactions
+  * Search and filter transactions
+  * Sort transactions by amount
+
+* 🔐 **Role-Based Access**
+
+  * Admin → Can add/edit/delete
+  * Viewer → Read-only access
+
+* 📈 **Charts & Visualization**
+
+  * Pie Chart (Expenses by category)
+  * Line Chart (Monthly trends)
+
+* 🧠 **Insights Section**
+
+  * Smart financial insights based on transactions
+
+* 🎨 **Modern UI**
+
+  * Clean and responsive design using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **Charts:** Chart.js (react-chartjs-2)
+* **State Management:** React Hooks (useState)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Dashboard.jsx
+│   ├── Charts.jsx
+│   ├── Insights.jsx
+│   │
+│   └── transactions/
+│       ├── Transactions.jsx
+│       ├── TransactionForm.jsx
+│       ├── TransactionList.jsx
+│       ├── TransactionRow.jsx
+│       ├── TransactionControls.jsx
+│
+├── data/
+│   └── transactions.js
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/finance-dashboard.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```bash
+cd finance-dashboard
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the Project
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 (Add your Vercel link here after deployment)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your dashboard here for better presentation)
+
+---
+
+## 🎯 Key Learnings
+
+* Component-based architecture in React
+* State management using hooks
+* Data visualization using Chart.js
+* Clean UI design using Tailwind CSS
+* Code modularization and reusability
+
+---
+
+## 🤝 Contribution
+
+Feel free to fork this repository and improve the project.
+
+---
+
+## 📧 Contact
+
+**Nishikant Gupta**
+📩 Email: [your-email@example.com](mailto:your-email@example.com)
+🔗 GitHub: https://github.com/YOUR-USERNAME
+
+---
+
+## ⭐ If you like this project
+
+Give it a ⭐ on GitHub!
