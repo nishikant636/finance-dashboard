@@ -1,4 +1,4 @@
-# 💰 Finance Dashboard (React)
+# Finance Dashboard (React)
 
 A modern and responsive **Finance Dashboard** built using **React.js** that helps users manage transactions, visualize financial data, and gain insights through charts.
 
@@ -104,7 +104,7 @@ npm run dev
 
 ## 🌐 Live Demo
 
-👉 (Add your Vercel link here after deployment)
+👉 https://moneyymap.netlify.app/
 
 ---
 
@@ -133,8 +133,8 @@ Feel free to fork this repository and improve the project.
 ## 📧 Contact
 
 **Nishikant Gupta**
-📩 Email: [your-email@example.com](mailto:your-email@example.com)
-🔗 GitHub: https://github.com/YOUR-USERNAME
+📩 Email: nishikantgupta.edu@gmail.com
+
 
 ---
 
